@@ -74,7 +74,7 @@ export default function Admissions() {
 </div>
 {/*  Process Image Anchor  */}
 <div className="mt-20 rounded-2xl overflow-hidden h-[400px] shadow-sm">
-<img className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700" data-alt="group of diverse university students smiling and walking across a green sunlit campus plaza with brick buildings" src="https://www.pblworks.org/sites/default/files/inline-images/blog%20PBL%20as%20an%20Equity%20Imperative.png"/>
+<img className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700" data-alt="group of diverse university students smiling and walking across a green sunlit campus plaza with brick buildings" src="https://www.pblworks.org/sites/default/files/inline-images/blog%20PBL%20as%20an%20Equity%20Imperative.webp"/>
 </div>
 </div>
 </section>

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-slate-50 dark:bg-slate-900 py-16 px-8 tonal-shift from surface to surface-container-low">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-24 max-w-screen-2xl mx-auto md:justify-items-center">
         <div className="space-y-6 md:pl-6">
-          <img src="/bms1.png" alt="BMS University" className="h-12 w-auto" />
+          <img src="/bms1.webp" alt="BMS University" className="h-12 w-auto" />
           <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">
             Nurturing minds and shaping futures since 1954. Committed to global
             academic leadership and ethical research.

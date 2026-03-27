@@ -181,12 +181,12 @@ export default function Placements() {
                 className="h-8 md:h-12 w-auto object-contain"
               />
               <img 
-                src="https://companieslogo.com/img/orig/WFC-a4743c33.png?t=1740744738" 
+                src="https://companieslogo.com/img/orig/WFC-a4743c33.webp?t=1740744738" 
                 alt="McKinsey" 
                 className="h-7 md:h-10 w-auto object-contain"
               />
               <img 
-                src="https://companieslogo.com/img/orig/ADBE-fb158b30.png?t=1740130206" 
+                src="https://companieslogo.com/img/orig/ADBE-fb158b30.webp?t=1740130206" 
                 alt="Adobe" 
                 className="h-7 md:h-10 w-auto object-contain"
               />
@@ -196,12 +196,12 @@ export default function Placements() {
                 className="h-7 md:h-10 w-auto object-contain"
               />
               <img 
-                src="https://cdn.iconscout.com/icon/free/png-256/free-tesla-icon-svg-download-png-2945257.png?f=webp" 
+                src="https://cdn.iconscout.com/icon/free/png-256/free-tesla-icon-svg-download-png-2945257.webp?f=webp" 
                 alt="Tesla" 
                 className="h-7 md:h-10 w-auto object-contain"
               />
               <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/3840px-Google_%22G%22_logo.svg.png" 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/3840px-Google_%22G%22_logo.svg.webp" 
                 alt="Google" 
                 className="h-7 md:h-10 w-auto object-contain"
               />
