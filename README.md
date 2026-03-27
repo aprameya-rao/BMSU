@@ -2,6 +2,7 @@
 A modern, responsive frontend for BMS University built with Vite + React + TypeScript.  
 This project focuses on a clean layout, consistent typography, sharp rectangular UI, and shared header/footer across all pages.
 
+#URL : https://bmsu.vercel.app/home
 ## Tech Stack
 - Vite
 - React
