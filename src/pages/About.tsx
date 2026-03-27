@@ -14,7 +14,7 @@ export default function About() {
 {/*  Hero Section  */}
 <section className="relative h-[819px] flex items-center overflow-hidden">
 <div className="absolute inset-0 z-0">
-<img alt="B.M. Sreenivasiah UNIVERSITY Campus" className="w-full h-full object-cover grayscale-[20%] contrast-[1.1]" data-alt="stately university gothic architecture buildings surrounded by ancient oak trees under a clear twilight sky with soft orange glow" src="/PJ.png"/>
+<img alt="B.M. Sreenivasiah UNIVERSITY Campus" className="w-full h-full object-cover grayscale-[20%] contrast-[1.1]" data-alt="stately university gothic architecture buildings surrounded by ancient oak trees under a clear twilight sky with soft orange glow" src="https://images.shiksha.com/mediadata/images/1535019907phpaCZsTx.jpeg"/>
 <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/40 to-transparent"></div>
 </div>
 <div className="relative z-10 max-w-screen-2xl mx-auto px-8 w-full">

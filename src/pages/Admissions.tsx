@@ -12,9 +12,8 @@ export default function Admissions() {
 
 <main>
 {/*  Hero Section  */}
-<section className="relative pt-24 pb-32 px-8 overflow-hidden">
-<div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-<div className="lg:col-span-7 space-y-8">
+<section className="relative min-h-[110px] flex items-center pt-8 pb-16 px-8 max-w-screen-2xl mx-auto overflow-hidden"><div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+<div className="lg:col-span-7 space-y-6">
 <span className="text-xs font-bold tracking-[0.2em] text-on-surface-variant uppercase bg-surface-container-high px-3 py-1 rounded">Future Scholars</span>
 <h1 className="font-headline text-5xl md:text-7xl font-bold text-primary leading-tight tracking-tight">
                         Your Journey to <br/>Global Excellence <br/>Starts Here.
@@ -23,17 +22,12 @@ export default function Admissions() {
                         Join a community of innovators, researchers, and leaders. B.M. Sreenivasiah UNIVERSITY offers a curated educational experience designed to empower your professional trajectory.
                     </p>
 <div className="flex flex-wrap gap-4 pt-4">
-<button className="bg-primary text-on-primary px-8 py-4 rounded-lg font-bold shadow-sm hover:shadow-lg transition-all flex items-center gap-2">
-                            Start Your Application <span className="material-symbols-outlined">arrow_forward</span>
-</button>
-<button className="bg-surface-container-high text-primary px-8 py-4 rounded-lg font-bold hover:bg-surface-container-highest transition-all">
-                            View Prospectus
-                        </button>
+
 </div>
 </div>
 <div className="lg:col-span-5 relative">
 <div className="rounded-2xl overflow-hidden aspect-[4/5] shadow-2xl relative z-10">
-<img className="w-full h-full object-cover" data-alt="high-angle shot of sunlight filtering through large glass windows of a modern university library with students studying quietly" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMcwEf1C01cWY8JhAkRL64iyRHN2wt0JZTXXVm133vtAxUWETNm-rVCl814vJYFNwsq5RCMHKC4LkodZO-rFxBwdEqbNw2oXccuqo3nbhACsAxyc-0zb6-k3MEZ-xHsMBkKA24HB3HzsM1-B6tQrBmtzJitDN1AD0WIY5SnqHCRvG7w4GLrYXmFCAJjgYWPtVj7m8hoY5GBxWLIh6eHhohV6smiNpJTe7fbs3vjpIrtMrHMyuIC5OKtwZzHZNgt1Ccm3eHBQcHcS4"/>
+<img className="w-full h-full object-cover" data-alt="high-angle shot of sunlight filtering through large glass windows of a modern university library with students studying quietly" src="https://preview.redd.it/wanted-to-take-a-moment-to-appreciate-how-beautiful-boston-v0-hr921dedico71.jpg?width=640&crop=smart&auto=webp&s=c41e1c5d6c0246d6de23af2c681594b15f067530"/>
 </div>
 {/*  Decorative Element  */}
 <div className="absolute -bottom-8 -left-8 w-48 h-48 bg-tertiary-fixed rounded-full mix-blend-multiply opacity-30 blur-3xl"></div>
@@ -80,7 +74,7 @@ export default function Admissions() {
 </div>
 {/*  Process Image Anchor  */}
 <div className="mt-20 rounded-2xl overflow-hidden h-[400px] shadow-sm">
-<img className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700" data-alt="group of diverse university students smiling and walking across a green sunlit campus plaza with brick buildings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADtiqBl9p3DNfS58p7t3BfLdkJcWP0DvhhgEUikTaiKgmfVpheYK5YiApgjnUS2HQeYohTU30cO76MI_HEr22Y1UJKvFWwGSReGyTBY8POY1WcBs9dfnY293z2d2_-DitZhO0AvpQsEQhiyK0BQiJDeWOrW8dS-0dH_Pct_Jaxwgoda_6zyTmuKOAV8r_GJkfKBE7pIc_Yo0sMDO-4SZoH_nYWrGIEykv24Of1dQTo_otBgHL5CVMhOyY2dIBXoUyym1kpSt-yTV4"/>
+<img className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700" data-alt="group of diverse university students smiling and walking across a green sunlit campus plaza with brick buildings" src="https://www.pblworks.org/sites/default/files/inline-images/blog%20PBL%20as%20an%20Equity%20Imperative.png"/>
 </div>
 </div>
 </section>
@@ -101,11 +95,7 @@ export default function Admissions() {
                                 We reward excellence. High-achieving students are eligible for up to 80% tuition waivers based on previous academic performance.
                             </p>
 </div>
-<div className="relative z-10 pt-8">
-<a className="inline-flex items-center gap-2 font-bold hover:gap-4 transition-all" href="#">
-                                Explore Scholarship Tiers <span className="material-symbols-outlined">arrow_right_alt</span>
-</a>
-</div>
+
 <div className="absolute right-[-10%] bottom-[-10%] w-2/3 h-2/3 opacity-20 group-hover:scale-110 transition-transform duration-700">
 <img className="w-full h-full object-cover rounded-full" data-alt="close up of a pen resting on a scholarly document with warm soft lighting and shallow depth of field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2Oy01PyEjiBam5HHAi906rfCyT_euTrh5VON-rrSVmVmMTk_AOzAPcNhKqNVONUwUo-eYCYsUr4INnzm3Fp7tySO2LgF1ezfJXVDuhjDEKly4qhfUTZtv2k6GlwRuoqUeqdTeRCKAclvEqrcWkMw-KJzaJxVz8BHKYETo2jPhmkVT8epekBaRqbXqvD6e3xl7B4gyX6VG-pNeVBUgje5E9Bl_CKqec3zVSCnRgHpoomQply3HNhJfR-XHZPZuxgPY5lS8cY7Vb-4"/>
 </div>
@@ -143,27 +133,12 @@ export default function Admissions() {
 <span className="material-symbols-outlined text-on-tertiary-container text-4xl">event_upcoming</span>
 </div>
 <div>
-<h3 className="font-bold text-xl mb-1">Fall Intake 2024</h3>
+<h3 className="font-bold text-xl mb-1">Fall Intake 2026</h3>
 <p className="text-on-tertiary/70">Application deadline: August 15th</p>
 </div>
 </div>
-<button className="bg-on-tertiary text-tertiary px-6 py-3 rounded-lg font-bold text-sm">Check Dates</button>
 </div>
 </div>
-</div>
-</section>
-{/*  Newsletter / CTA  */}
-<section className="py-24 px-8">
-<div className="max-w-screen-xl mx-auto bg-surface-container-lowest rounded-3xl p-12 md:p-20 text-center space-y-8 relative overflow-hidden">
-<div className="absolute top-0 right-0 w-64 h-64 bg-blue-100/50 rounded-full -mr-32 -mt-32 blur-3xl"></div>
-<h2 className="font-headline text-4xl md:text-5xl font-bold text-primary relative z-10">Stay Informed.</h2>
-<p className="text-on-surface-variant max-w-xl mx-auto relative z-10 text-lg">
-                    Receive the latest updates on admissions workshops, campus tours, and early application deadlines directly in your inbox.
-                </p>
-<form className="flex flex-col md:flex-row gap-4 max-w-md mx-auto relative z-10">
-<input className="flex-grow px-6 py-4 rounded-lg bg-surface-container-low border-none focus:ring-2 focus:ring-primary/20 transition-all" placeholder="Enter your email address" type="email"/>
-<button className="bg-primary text-on-primary px-8 py-4 rounded-lg font-bold hover:shadow-lg transition-all">Subscribe</button>
-</form>
 </div>
 </section>
 </main>

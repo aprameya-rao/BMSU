@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BMSU | Bharat Mohan Singh University</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-fixed": "#ffdbcb",
+              "surface-dim": "#d8dadc",
+              "on-tertiary-fixed": "#341100",
+              "tertiary-container": "#401700",
+              "on-primary-container": "#718bb9",
+              "background": "#f7f9fb",
+              "outline-variant": "#c4c6d0",
+              "inverse-primary": "#adc7f8",
+              "on-tertiary": "#ffffff",
+              "on-secondary-container": "#57657a",
+              "on-tertiary-fixed-variant": "#6c391c",
+              "on-secondary-fixed-variant": "#3a485b",
+              "tertiary": "#1e0700",
+              "surface-container-highest": "#e0e3e5",
+              "surface": "#f7f9fb",
+              "primary-container": "#00234b",
+              "secondary-fixed": "#d5e3fc",
+              "secondary-container": "#d5e3fc",
+              "surface-variant": "#e0e3e5",
+              "on-error": "#ffffff",
+              "outline": "#74777f",
+              "on-tertiary-container": "#bc7b58",
+              "surface-container": "#eceef0",
+              "secondary": "#515f74",
+              "on-background": "#191c1e",
+              "error-container": "#ffdad6",
+              "on-secondary": "#ffffff",
+              "primary-fixed": "#d6e3ff",
+              "on-surface-variant": "#43474e",
+              "on-primary-fixed": "#001b3d",
+              "on-secondary-fixed": "#0d1c2e",
+              "secondary-fixed-dim": "#b9c7df",
+              "surface-container-low": "#f2f4f6",
+              "inverse-on-surface": "#eff1f3",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-high": "#e6e8ea",
+              "on-surface": "#191c1e",
+              "on-primary": "#ffffff",
+              "surface-tint": "#455f8a",
+              "surface-bright": "#f7f9fb",
+              "on-error-container": "#93000a",
+              "primary": "#000e24",
+              "tertiary-fixed-dim": "#ffb690",
+              "primary-fixed-dim": "#adc7f8",
+              "on-primary-fixed-variant": "#2c4771",
+              "inverse-surface": "#2d3133",
+              "error": "#ba1a1a"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-nav {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px);
+      }
+      .editorial-grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body antialiased">
+<!-- Top Navigation Shell -->
+<header class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-950/70 backdrop-blur-md shadow-sm dark:shadow-none">
+<nav class="flex justify-between items-center w-full px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-8">
+<a class="text-2xl font-serif font-bold text-blue-900 dark:text-blue-100 tracking-tighter" href="#">BMSU</a>
+<div class="hidden md:flex items-center gap-6">
+<a class="text-blue-900 dark:text-blue-100 border-b-2 border-blue-900 dark:border-blue-400 pb-1 font-serif text-lg tracking-tight font-semibold" href="#">Academics</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-900 dark:hover:text-blue-200 transition-colors font-serif text-lg tracking-tight font-semibold" href="#">Admissions</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-900 dark:hover:text-blue-200 transition-colors font-serif text-lg tracking-tight font-semibold" href="#">Research</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-900 dark:hover:text-blue-200 transition-colors font-serif text-lg tracking-tight font-semibold" href="#">Campus Life</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden lg:flex items-center bg-surface-container-low px-4 py-2 rounded-full">
+<span class="material-symbols-outlined text-outline" data-icon="search">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm ml-2 w-32" placeholder="Search BMSU" type="text"/>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-lg font-semibold tracking-wide hover:bg-primary-container transition-all active:scale-95 duration-150">Apply Now</button>
+</div>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+<!-- Cinematic Video Overlay Placeholder -->
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover brightness-[0.4]" data-alt="Cinematic wide shot of a historic university campus with gothic architecture and stone arches at dawn with soft golden light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAG7i_8W6_iNfTOKBQMl1uPyMBLEyNcYeYxOKx34KhcWv88UzgSjS9dCEyfmbEFxx8vb5pcStolfsKE_VVoBWgQ7owMv7yNzvs8XJwBEWyQBHmeTuHMcdt0uFeIkXLIigrFn_PyVQq60fd0WnV29IpQJg7gDmvpDkw1P1M6LHNrM_k5EepSHcsyzhOC_y-G3cQr-SJo253k4aT5aecUh57RoxCrIM33RAMC3bfbwHM9QKcUeLGcY1Yq3nO_6SSV_ko9ATpO5oTgi6A"/>
+<div class="absolute inset-0 bg-gradient-to-b from-primary/30 to-primary/80"></div>
+</div>
+<div class="relative z-10 text-center px-6 max-w-4xl mx-auto pt-20">
+<span class="text-on-primary-container font-label uppercase tracking-[0.3em] text-sm mb-6 block">The Sovereign University</span>
+<h1 class="font-headline text-5xl md:text-7xl lg:text-8xl text-white mb-8 tracking-tighter leading-tight">
+                    A Legacy of <br/><i class="font-normal italic">Intellectual Grandeur</i>
+</h1>
+<p class="text-blue-100/80 text-lg md:text-xl font-light mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Cultivating the architects of the future through a blend of tradition and pioneering research.
+                </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+<button class="bg-white text-primary px-8 py-4 rounded-lg font-bold tracking-tight hover:bg-surface-container transition-all duration-300 w-full sm:w-auto">
+                        Apply for 2024-25
+                    </button>
+<button class="flex items-center gap-3 text-white border border-white/30 px-8 py-4 rounded-lg font-bold backdrop-blur-sm hover:bg-white/10 transition-all duration-300 w-full sm:w-auto">
+<span class="material-symbols-outlined" data-icon="play_circle">play_circle</span>
+                        Watch the Film
+                    </button>
+</div>
+</div>
+<div class="absolute bottom-12 left-1/2 -translate-x-1/2 text-white/50 animate-bounce">
+<span class="material-symbols-outlined text-4xl" data-icon="keyboard_double_arrow_down">keyboard_double_arrow_down</span>
+</div>
+</section>
+<!-- Academic Pillars Section -->
+<section class="py-32 px-8 bg-surface">
+<div class="max-w-screen-2xl mx-auto">
+<div class="mb-20">
+<span class="text-primary font-label uppercase tracking-widest text-xs mb-4 block">Foundations of Knowledge</span>
+<h2 class="font-headline text-4xl md:text-5xl text-primary">Academic Pillars</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<!-- Engineering -->
+<div class="group bg-surface-container-lowest p-10 rounded-xl transition-all duration-500 hover:shadow-2xl hover:shadow-primary/5">
+<div class="mb-8 w-16 h-16 bg-primary-fixed rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl" data-icon="precision_manufacturing">precision_manufacturing</span>
+</div>
+<h3 class="font-headline text-2xl text-primary mb-4">BMSCE (Engineering)</h3>
+<p class="text-secondary leading-relaxed mb-8">Pioneering sustainable technology and robotic innovation through applied physics and structural excellence.</p>
+<a class="inline-flex items-center gap-2 text-primary font-bold group-hover:gap-4 transition-all" href="#">
+                            Explore Faculty <span class="material-symbols-outlined" data-icon="arrow_right_alt">arrow_right_alt</span>
+</a>
+</div>
+<!-- Law -->
+<div class="group bg-surface-container-lowest p-10 rounded-xl transition-all duration-500 hover:shadow-2xl hover:shadow-primary/5">
+<div class="mb-8 w-16 h-16 bg-primary-fixed rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl" data-icon="gavel">gavel</span>
+</div>
+<h3 class="font-headline text-2xl text-primary mb-4">BMSCL (Law)</h3>
+<p class="text-secondary leading-relaxed mb-8">Nurturing legal minds to navigate global justice systems with ethics, precision, and historical context.</p>
+<a class="inline-flex items-center gap-2 text-primary font-bold group-hover:gap-4 transition-all" href="#">
+                            Explore Faculty <span class="material-symbols-outlined" data-icon="arrow_right_alt">arrow_right_alt</span>
+</a>
+</div>
+<!-- Architecture -->
+<div class="group bg-surface-container-lowest p-10 rounded-xl transition-all duration-500 hover:shadow-2xl hover:shadow-primary/5">
+<div class="mb-8 w-16 h-16 bg-primary-fixed rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl" data-icon="architecture">architecture</span>
+</div>
+<h3 class="font-headline text-2xl text-primary mb-4">BMSSA (Architecture)</h3>
+<p class="text-secondary leading-relaxed mb-8">Designing tomorrow’s landscapes through a rigorous blend of classical aesthetics and modern urbanism.</p>
+<a class="inline-flex items-center gap-2 text-primary font-bold group-hover:gap-4 transition-all" href="#">
+                            Explore Faculty <span class="material-symbols-outlined" data-icon="arrow_right_alt">arrow_right_alt</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- The Digital Curator Section -->
+<section class="bg-primary overflow-hidden">
+<div class="editorial-grid min-h-[700px]">
+<div class="col-span-12 lg:col-span-6 p-12 md:p-24 flex flex-col justify-center order-2 lg:order-1">
+<span class="text-on-primary-container font-label uppercase tracking-widest text-xs mb-6 block">Philosophy</span>
+<h2 class="font-headline text-4xl md:text-6xl text-white mb-8 leading-tight">The Digital <br/><i class="font-normal italic">Curator</i></h2>
+<p class="text-blue-100/70 text-lg md:text-xl leading-relaxed mb-10 max-w-lg">
+                        At BMSU, education is not a conveyor belt; it is a curated experience. We embrace the philosophy of 'Clarity and Craft'—stripping away academic noise to reveal the core of intellectual discovery.
+                    </p>
+<div class="flex items-center gap-8">
+<div>
+<span class="block text-3xl font-headline text-white">1892</span>
+<span class="text-xs text-blue-100/40 uppercase tracking-widest">Est. Tradition</span>
+</div>
+<div class="w-px h-12 bg-white/10"></div>
+<div>
+<span class="block text-3xl font-headline text-white">2024</span>
+<span class="text-xs text-blue-100/40 uppercase tracking-widest">Global Ranking</span>
+</div>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-6 relative order-1 lg:order-2">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="Interior of a modern, high-end architectural studio with floor-to-ceiling glass windows, clean white surfaces, and sophisticated lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpMo-IM90kx0d9fw7nW9VdSSFJ76TMLfXOdEKeMDOZIvl-Ags5WrhIIdy2r9Y_raBW0SLxYeJznKRltYnDNn56WhZkC60UNajeajg2kfsgnbGs28sKkhVw67cVeYvjAQ2Wh93oHXZzUxaqiV8hbXDqgv8gqrCckAhBjCj99GMvw_KM-eb1bCXJGOIRPAwJ-PLP4ddvwoEK34FinovEtvpszlzf2Nv95mGojLLP9apOdL4-UKGscmoTmz6EZ4JaHyRtbrT-zSPJIm8"/>
+</div>
+</div>
+</section>
+<!-- Global Network Section -->
+<section class="py-32 bg-surface-container-low px-8">
+<div class="max-w-screen-2xl mx-auto text-center mb-24">
+<span class="text-primary font-label uppercase tracking-widest text-xs mb-4 block">International reach</span>
+<h2 class="font-headline text-4xl md:text-5xl text-primary mb-6">A Global Network</h2>
+<p class="text-secondary max-w-2xl mx-auto text-lg">Connecting our students to world-class opportunities through a vast ecosystem of academic and industry synergy.</p>
+</div>
+<div class="max-w-screen-2xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+<div class="p-8 border-r border-outline-variant/30 last:border-0">
+<span class="block font-headline text-5xl text-primary mb-2">60+</span>
+<span class="text-sm text-secondary uppercase tracking-widest">Global Collaborations</span>
+</div>
+<div class="p-8 border-r border-outline-variant/30 last:border-0 md:block hidden">
+<span class="block font-headline text-5xl text-primary mb-2">120+</span>
+<span class="text-sm text-secondary uppercase tracking-widest">Institutional Partners</span>
+</div>
+<div class="p-8 border-r border-outline-variant/30 last:border-0 sm:block hidden">
+<span class="block font-headline text-5xl text-primary mb-2">14k</span>
+<span class="text-sm text-secondary uppercase tracking-widest">Alumni Worldwide</span>
+</div>
+<div class="p-8 last:border-0">
+<span class="block font-headline text-5xl text-primary mb-2">45</span>
+<span class="text-sm text-secondary uppercase tracking-widest">Research Hubs</span>
+</div>
+</div>
+<!-- Map Placeholder Aesthetic -->
+<div class="mt-24 max-w-screen-xl mx-auto h-[400px] bg-white rounded-2xl relative overflow-hidden shadow-2xl shadow-primary/10">
+<img class="w-full h-full object-cover opacity-80 brightness-[0.2]" data-alt="Monochromatic dark world map with illuminated node points representing global university partnership locations" data-location="Global" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxWmlAJV1NV_B2ND8lPBrGYKcSJzKoXdvXHFp0cKJmSFzDbngbTEQWRbWuzlDz2G3K0KO0FqkA2_21B-HxCkqhh19cISpyfkFZ24vmXRIccjGAUz2DRiCYvRPwoyI5_rGA_ywmKfFNFqnPsE5qPUJ4Ay4oPWCH2e-3LIgEy0iYQTWZejy4Ruq1OmIZHfY_p0MX_NHoa6pnTrM3Lc8QLDM8JqUYChlSsuOtHrlGqXAWRZBOz3FV0i91pilmLphTSGoqZyS5xJigdn4"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="text-center">
+<span class="text-white/40 text-sm tracking-[0.5em] uppercase mb-4 block">Interactive Network Map</span>
+<button class="bg-primary text-white px-8 py-3 rounded-lg text-sm font-bold tracking-widest uppercase">Explore Global Hubs</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Student Life Mosaic -->
+<section class="py-32 px-8 bg-surface">
+<div class="max-w-screen-2xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
+<div>
+<span class="text-primary font-label uppercase tracking-widest text-xs mb-4 block">The Experience</span>
+<h2 class="font-headline text-4xl md:text-5xl text-primary">Student Life</h2>
+</div>
+<p class="text-secondary max-w-md">Life at BMSU extends beyond the lecture hall, into spaces designed for collision, creation, and community.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-6 h-auto md:h-[800px]">
+<div class="md:col-span-2 md:row-span-2 relative group overflow-hidden rounded-xl">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Candid shot of diverse students collaborating in a bright, modern glass-walled library hall with warm ambient light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0oqu-sKW-XHW6w_3P1wshY9dn744f8LbmtD554boi-SRtHjuFNksci-G8BMLA09IMqnmFSfNTm03IOcxnfH2SNksQhAhg0YNVxtGee8RLhXNMEtN-69Y1nNQvgsg4J8TxTCPfj7d_q7Jw4EC_Lv-fgnQl7iKMQ-yAjn_luVbRR8o0mCK-AhFWtI6ncgDXOq_RbHtf-twccyYwxa3du_EDMgcIpu-qvCdQ2A1FBbvRrq26QN4u99axo7Ot7sM1Qyf-e_q4kKXK3kE"/>
+<div class="absolute bottom-0 left-0 p-8 bg-gradient-to-t from-black/80 to-transparent w-full">
+<h4 class="text-white font-headline text-2xl">The Excellence Quad</h4>
+</div>
+</div>
+<div class="md:col-span-2 relative group overflow-hidden rounded-xl">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Students working with high-tech robotics and clean industrial design in a state-of-the-art innovation lab" src="https://lh3.googleusercontent.com/aida-public/AB6AXuATZV0eVQbIIktYgdZ1oui4EM7VHs-qAqOzYAZ5uat-eaODP0nkqObyIPSgO3Hli5pGotyF-2nSkCSoc_ka6ouKOPhzaGaBe1iDWgdoPX_Abz7xLCbuA2NtPK-SnHp7DSqu9wpFfJdf_MvSrcbexc3CC_MT4-Vp0O-10-by-aXo5BUVURy4qRIxNRLLtfyfuvwo2D3giwRngpsIh1VgN5wD3XHYZghR_TYfo1viQUyb5gxHr77d1XXmRln1-DAANiOlhTniBJAId60"/>
+<div class="absolute bottom-0 left-0 p-8 bg-gradient-to-t from-black/80 to-transparent w-full">
+<h4 class="text-white font-headline text-2xl">Innovation Hubs</h4>
+</div>
+</div>
+<div class="relative group overflow-hidden rounded-xl">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A group of students in professional attire engaged in a formal debate within a wood-paneled historic lecture hall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCemVu-dQE-u9HWbMHu5PHLbH91TbgYKeZBFRk3FWmB0Sbw000A-tEUdxJKlSDTXRWgCk7YrSxnC7HOsvE8dVAcvdFlPJacnUld3v_rYYPTuZRrsLC6I_IcaXDGB8PB2U3zLGnTH07lu-zetAhr_HVfez3k9y1OpRPOWDdzYJ6RX-Di4PPy8HIB_2SVMUX1ha20MqYm6QJ4wFS13YEbtUbjOkvLd4MScXP4GcVFR5LO-Mrf9RMPgBCPstOLggdfnu2MHBJuWYgK1Vc"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-white font-bold tracking-widest uppercase">The Society</span>
+</div>
+</div>
+<div class="relative group overflow-hidden rounded-xl">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Aerial view of students relaxed on a pristine green university lawn surrounded by grand neoclassical buildings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBt8Bt8uvq6Gn00wVAR9O_3MOlOKsXA9nQ4FHpsTc0IxB-So8c7U3sub_0xR3W1FuHgmgUhZ2vsypgo7bJCuyzgWHUPkCDgVReCB3hcjAfJvQZd0K0gj6gMpIJRfLdVsPVo_ACeJ14kPxX9YxhZKfK7oh8lhgg_RESLnKCgnYYJasNSyrjONy-ZiRQaakzW1zCN8nIsGmMsNVs5J0nf7exw8rd83JY6firctTSFwR4NFsukZZLJbhrE2XC7MbHKj1cw7fZqtUQs1nw"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-white font-bold tracking-widest uppercase">Serenity</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 px-8 bg-primary text-center">
+<div class="max-w-2xl mx-auto">
+<h2 class="font-headline text-4xl md:text-5xl text-white mb-8">Begin Your Legacy</h2>
+<p class="text-blue-100/60 mb-12 text-lg">Applications for the academic year 2024-25 are now open. Join a tradition of excellence.</p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center">
+<button class="bg-white text-primary px-10 py-4 rounded-lg font-bold hover:bg-blue-50 transition-all active:scale-95">Enroll Now</button>
+<button class="text-white border border-white/20 px-10 py-4 rounded-lg font-bold hover:bg-white/5 transition-all">Request Prospectus</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shell -->
+<footer class="bg-slate-50 dark:bg-slate-900 w-full rounded-none">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-20 max-w-screen-2xl mx-auto">
+<div class="col-span-1 md:col-span-1">
+<span class="font-serif text-xl font-bold text-blue-900 dark:text-blue-50 block mb-6">BMSU</span>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">
+                    A premier institution dedicated to the synthesis of historical wisdom and technological future.
+                </p>
+</div>
+<div>
+<h5 class="text-blue-900 dark:text-blue-200 font-bold text-sm mb-6 uppercase tracking-widest">Resources</h5>
+<ul class="space-y-4 font-sans text-sm tracking-wide">
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-300 underline underline-offset-4 transition-opacity duration-200" href="#">Academic Calendar</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-300 underline underline-offset-4 transition-opacity duration-200" href="#">Faculty Directory</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-300 underline underline-offset-4 transition-opacity duration-200" href="#">Research Portals</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-blue-900 dark:text-blue-200 font-bold text-sm mb-6 uppercase tracking-widest">Navigation</h5>
+<ul class="space-y-4 font-sans text-sm tracking-wide">
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-300 underline underline-offset-4 transition-opacity duration-200" href="#">Privacy Policy</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-300 underline underline-offset-4 transition-opacity duration-200" href="#">Contact Support</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-300 underline underline-offset-4 transition-opacity duration-200" href="#">Campus Map</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-blue-900 dark:text-blue-200 font-bold text-sm mb-6 uppercase tracking-widest">Follow Excellence</h5>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-blue-900 dark:text-blue-200 transition-all hover:scale-110" href="#">
+<span class="material-symbols-outlined" data-icon="share">share</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-blue-900 dark:text-blue-200 transition-all hover:scale-110" href="#">
+<span class="material-symbols-outlined" data-icon="public">public</span>
+</a>
+</div>
+</div>
+</div>
+<div class="px-12 py-8 border-t border-slate-200 dark:border-slate-800 max-w-screen-2xl mx-auto">
+<p class="font-sans text-sm tracking-wide text-slate-500 dark:text-slate-400 text-center">
+                © 2024 Bharat Mohan Singh University. All Rights Reserved. Accredited by Global Academic Council.
+            </p>
+</div>
+</footer>
+</body></html>

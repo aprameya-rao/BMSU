@@ -119,7 +119,7 @@ export default function Academics() {
 </div>
 {/*  Item 2  */}
 <div className="md:col-span-4 md:row-span-1 relative group overflow-hidden rounded-xl">
-<img alt="Data Analytics" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Digital screen showing colorful data visualizations, charts, and financial analytics in a sharp, modern office environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB53HnHvfdWSQe7wXj5Eug51v-5DtyeSuwB8KwVaqE_YBbVUX7iJIHGCKrNmodcgzQeYssdDd2L-1ns-Swy3cq3R9Ws3UhjGRG25E4a8Rut65g0FbDM_iNblcYe6KWVcTWG9HEEOdAQjQCgLM5Ii3iqFp4l8gelIo9mZ5u8FZTHV_v5jJNtonDWPJCh_gn_Ju2otXHTlVdznCy2LSMlCg03PKZvBKKjNIS_RQw9JYL5xKJcoyKV1uKZFcech2dCgqfcAenGkeUwPfQ"/>
+<img alt="Data Analytics" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Digital screen showing colorful data visualizations, charts, and financial analytics in a sharp, modern office environment" src="https://start.docuware.com/hubfs/Cover%20data%20m.jpg"/>
 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-6">
 <h4 className="text-white font-headline text-xl font-bold">MBA in Data Strategy</h4>
 <p className="text-white/70 text-sm mt-1">Transforming numbers into business impact.</p>
@@ -127,7 +127,7 @@ export default function Academics() {
 </div>
 {/*  Item 3  */}
 <div className="md:col-span-4 md:row-span-1 relative group overflow-hidden rounded-xl">
-<img alt="Creative Arts" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Artist studio with large canvases, vibrant paint splashes, and natural light flooding in from tall industrial windows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHmZoRQqB4emkR3WsXDMpJ1-9_5-xWe2b7Uvd8RMnaglL43HkoJMtdSUPFUKtFDTPTRJFnUvOLvQEBQBK5FMvSBSErzifofXij9ZpTQbZxIh-BrfoVU9SlHJv2InfpBwGwTJDCpxLUUMSGdXgNjiVVpi79OGeSort-LlZLuLCntua-PHOIzhOV0AH6umBTdcZ-39RgQSWQypxPrJALNB94tc1F2WAZ8-KhQe5n6Zw3dRxtYU7riMva93jJ6ZZFU7TFAkc9tM61DCQ"/>
+<img alt="Creative Arts" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Artist studio with large canvases, vibrant paint splashes, and natural light flooding in from tall industrial windows" src="https://www.dvc.edu/sites/default/files/2024-08/masthead_Art-Digital-Media_1264x711.jpg"/>
 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-6">
 <h4 className="text-white font-headline text-xl font-bold">B.Des in Media Arts</h4>
 <p className="text-white/70 text-sm mt-1">Merging aesthetics with digital tech.</p>
