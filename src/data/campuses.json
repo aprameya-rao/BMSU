@@ -1,0 +1,66 @@
+[
+  {
+    "id": "bmsce",
+    "name": "BMS College of Engineering",
+    "description": "Established in 1946, BMS College of Engineering holds the proud distinction of being the first private sector initiative in engineering education in India. Over the past seven decades, it has evolved into a premier institution known for its rigorous academic standards, cutting-edge research facilities, and robust industry partnerships. The campus provides a vibrant ecosystem for innovation, nurturing thousands of engineers who have gone on to become global tech leaders and visionaries.",
+    "thumbnail": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
+    "heroImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1920",
+    "established": "1946",
+    "stats": [
+      { "value": "75+", "label": "Years of Legacy" },
+      { "value": "14", "label": "UG Programs" },
+      { "value": "15+", "label": "Research Centres" }
+    ],
+    "departments": [
+      { "name": "Civil Engineering", "hod": "Dr. Sureka Naagesh", "description": "Infrastructure and structural engineering." },
+      { "name": "Mechanical Engineering", "hod": "Dr. H. M. Shivaprasad", "description": "Thermodynamics and manufacturing systems." },
+      { "name": "Electrical & Electronics Engineering", "hod": "Dr. R. S. Geetha", "description": "Electrical systems and power engineering." },
+      { "name": "Electronics & Communication Engineering", "hod": "Dr. K. P. Lakshmi", "description": "Communication and embedded systems." },
+      { "name": "Industrial Engineering & Management", "hod": "Dr. Shailaja V.N.", "description": "Optimization and industrial systems." },
+      { "name": "Computer Science & Engineering", "hod": "Dr. Kavitha Sooda", "description": "AI, distributed systems, and software engineering." },
+      { "name": "Chemical Engineering", "hod": "Dr. Chetan A Nayak", "description": "Process engineering and chemical systems." },
+      { "name": "Bio-Technology", "hod": "Dr. Saisha Vinjamuri", "description": "Biotech and applied biological sciences." },
+      { "name": "Aerospace Engineering", "hod": "Dr. K. Veerabhadrappa", "description": "Aerodynamics and aircraft systems." },
+      { "name": "Artificial Intelligence and Machine Learning", "hod": "NA", "description": "AI systems and deep learning." },
+      { "name": "Artificial Intelligence & Data Science", "hod": "Dr. Indiramma M", "description": "Data science and analytics." },
+      { "name": "Computer Science & Engineering (Data Science)", "hod": "Dr. Kavitha Sooda", "description": "Big data and analytics." },
+      { "name": "Computer Science & Engineering (IoT & Cyber Security)", "hod": "Dr. Kavitha Sooda", "description": "IoT and cybersecurity systems." },
+      { "name": "Computer Science & Business Systems", "hod": "Dr. R. Ashok Kumar", "description": "Tech-business integration." }
+    ]
+  },
+  {
+    "id": "bmscl",
+    "name": "BMS College of Law",
+    "description": "Since its inception in 1963, BMS College of Law has been at the forefront of imparting exceptional legal education. The institution blends traditional legal doctrines with contemporary jurisprudential developments to prepare students for the dynamic landscape of modern law. With state-of-the-art moot courts, active legal aid clinics, and a distinguished faculty, the college is dedicated to shaping ethically grounded, articulate, and highly competent legal professionals who champion justice.",
+    "thumbnail": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800",
+    "heroImage": "https://images.unsplash.com/photo-1505664177941-a2854b4fdb33?auto=format&fit=crop&q=80&w=1920",
+    "established": "1963",
+    "stats": [
+      { "value": "60+", "label": "Years of Excellence" },
+      { "value": "4", "label": "Programs Offered" }
+    ],
+    "ugPrograms": [
+      { "title": "B.A., LL.B. (5 Year Programme)", "description": "Started in 2000-2001 | Intake: 120" },
+      { "title": "B.Com., LL.B. (5 Year Programme)", "description": "Started in 2017-2018 | Intake: 60" },
+      { "title": "BBA., LL.B. (5 Year Programme)", "description": "Started in 2023-2024 | Intake: 60" },
+      { "title": "LL.B. (3 Year Programme)", "description": "Started in 1963-1964 | Intake: 120" }
+    ]
+  },
+  {
+    "id": "bmsca",
+    "name": "BMS College of Architecture",
+    "description": "BMS College of Architecture has been a beacon of creative exploration and sustainable design since 1980. The curriculum is meticulously crafted to bridge the gap between artistic vision and technical feasibility, encouraging students to rethink the built environment. Through immersive design studios, urban planning workshops, and hands-on material labs, the college empowers aspiring architects to design resilient, aesthetically profound, and ecologically responsible spaces for the future.",
+    "thumbnail": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800",
+    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1920",
+    "established": "1980",
+    "stats": [
+      { "value": "40+", "label": "Years of Excellence" },
+      { "value": "4", "label": "Programs Offered" }
+    ],
+    "ugPrograms": [
+      { "title": "B.Arch (5 years full time)", "description": "Started in 2016 | Intake: 120" },
+      { "title": "B.Plan (4 years full time)", "description": "Started in 2024 | Intake: 40" },
+      { "title": "B.Des – Interior Design (4 years)", "description": "Started in 2024 | Intake: 30" }
+    ]
+  }
+]

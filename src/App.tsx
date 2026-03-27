@@ -1,13 +1,12 @@
 ﻿import { Navigate, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
-import Home from "./pages/Home";
 import About from "./pages/About";
 import Academics from "./pages/Academics";
 import Admissions from "./pages/Admissions";
 import Alumni from "./pages/Alumni";
-import Campuses from "./pages/Campuses";
+import Campuses from "./pages/Campuses"; 
+import CampusTemplate from "./pages/CampusTemplate"; // NEW: The dynamic individual campus page
 import CampusLife from "./pages/CampusLife";
 import Contact from "./pages/Contact";
 import Placements from "./pages/Placements";
@@ -19,16 +18,20 @@ import Terms from "./pages/Terms";
 export default function App() {
   return (
     <>
-      <ScrollToTop />
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Navigate to="/about" replace />} />
         <Route path="/about" element={<About />} />
         <Route path="/academics" element={<Academics />} />
         <Route path="/admissions" element={<Admissions />} />
         <Route path="/alumni" element={<Alumni />} />
+        
+        {/* The main campuses grid page */}
         <Route path="/campuses" element={<Campuses />} />
+        
+        {/* The dynamic route for individual campuses */}
+        <Route path="/campuses/:campusId" element={<CampusTemplate />} />
+        
         <Route path="/campus-life" element={<CampusLife />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/placements" element={<Placements />} />
@@ -37,7 +40,6 @@ export default function App() {
         <Route path="/student" element={<Student />} />
         <Route path="/students" element={<Student />} />
         <Route path="/terms" element={<Terms />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
     </>
