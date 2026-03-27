@@ -29,7 +29,7 @@ export default function Academics() {
 </div>
 <div className="absolute -bottom-8 -left-8 bg-surface-container-lowest p-6 rounded-xl shadow-xl max-w-xs border-l-4 border-primary">
 <p className="font-headline italic text-primary text-lg">"The curriculum here doesn't just teach you what to think, but how to architect solutions for the future."</p>
-<p className="mt-4 font-label text-xs uppercase font-bold tracking-widest text-on-surface-variant">— Dean</p>
+<p className="mt-4 font-label text-xs uppercase font-bold tracking-widest text-on-surface-variant">ï¿½ Dean</p>
 </div>
 </div>
 </div>
@@ -131,27 +131,6 @@ export default function Academics() {
 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-6">
 <h4 className="text-white font-headline text-xl font-bold">B.Des in Media Arts</h4>
 <p className="text-white/70 text-sm mt-1">Merging aesthetics with digital tech.</p>
-</div>
-</div>
-</div>
-</section>
-{/*  Admission CTA Section  */}
-<section className="py-24 px-8 max-w-screen-2xl mx-auto mb-24">
-<div className="signature-cta rounded-[2rem] p-12 md:p-24 text-center relative overflow-hidden">
-<div className="absolute top-0 left-0 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
-<div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-300/5 rounded-full blur-3xl translate-x-1/3 translate-y-1/3"></div>
-<div className="relative z-10">
-<h2 className="font-headline text-4xl md:text-6xl font-bold text-white mb-8">Ready to define your future?</h2>
-<p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-medium">
-                        Join a community of scholars, innovators, and leaders at BMS University. Fall admissions are now open across all primary faculties.
-                    </p>
-<div className="flex flex-col md:flex-row items-center justify-center gap-6">
-<button className="bg-white text-primary px-10 py-5 rounded-lg font-bold text-lg hover:bg-slate-50 transition-colors active:scale-95 shadow-xl shadow-black/20">
-                            Apply for 2024-25
-                        </button>
-<button className="text-white border-b-2 border-white/30 hover:border-white transition-all pb-1 font-bold flex items-center gap-2">
-                            Request a Prospectus <span className="material-symbols-outlined">download</span>
-</button>
 </div>
 </div>
 </div>
