@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Academics from "./pages/Academics";
 import Admissions from "./pages/Admissions";
 import Alumni from "./pages/Alumni";
+import Home from "./pages/Home";
 import Campuses from "./pages/Campuses"; 
 import CampusTemplate from "./pages/CampusTemplate"; // NEW: The dynamic individual campus page
 import CampusLife from "./pages/CampusLife";
@@ -34,6 +35,7 @@ export default function App() {
         
         <Route path="/campus-life" element={<CampusLife />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/home" element={<Home/>} />
         <Route path="/placements" element={<Placements />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/research" element={<Research />} />

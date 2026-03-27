@@ -60,8 +60,7 @@ export default function Contact() {
 <div>
 <h3 className="font-bold text-lg mb-1">Main Campus</h3>
 <p className="text-on-surface-variant leading-relaxed">
-                                    Knowledge Square, Sector 12<br/>
-                                    University Heights, Bangalore 560004<br/>
+                                    Bull Temple Rd, Basavanagudi, <br/>Bengaluru, Karnataka 560004<br/>
                                     
                                 </p>
 </div>

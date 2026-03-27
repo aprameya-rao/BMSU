@@ -130,9 +130,7 @@ export default function Alumni() {
                       </div>
                     </div>
                   </div>
-                  <button className="bg-primary text-on-primary px-10 py-4 rounded-xl font-bold hover:shadow-lg hover:shadow-primary/30 transition-all active:scale-95">
-                    Become a Mentor
-                  </button>
+                  
                 </div>
               </div>
             </div>
@@ -161,9 +159,7 @@ export default function Alumni() {
                         <div className="bg-primary h-full w-[74%] rounded-full"></div>
                       </div>
                     </div>
-                    <button className="bg-primary text-on-primary px-10 py-4 rounded-xl font-bold hover:bg-primary/90 transition-all">
-                      Support a Student
-                    </button>
+                    
                   </div>
                   
                   <div className="md:w-1/2 grid grid-cols-2 gap-4">

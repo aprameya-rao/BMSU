@@ -111,10 +111,7 @@ export default function Academics() {
 <span className="text-white/70 font-label text-xs uppercase tracking-widest mb-2">School of Innovation</span>
 <h3 className="text-white font-headline text-3xl font-bold mb-4">M.Tech in Quantum Systems</h3>
 <p className="text-white/80 max-w-md mb-6 font-medium">Leading the frontier of computing with industry-partnered research labs and direct placements.</p>
-<div className="flex gap-4">
-<button className="bg-white text-primary px-6 py-3 rounded-lg font-bold text-sm active:scale-95 transition-all">Enroll Now</button>
-<button className="border border-white/30 text-white backdrop-blur-md px-6 py-3 rounded-lg font-bold text-sm hover:bg-white/10 active:scale-95 transition-all">Program Details</button>
-</div>
+
 </div>
 </div>
 {/*  Item 2  */}
