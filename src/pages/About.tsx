@@ -51,10 +51,7 @@ export default function About() {
 <p>
                                 We empower our students to not only understand the world as it is but to envision and create the world as it should be. Through interdisciplinary research and community engagement, we bridge the gap between theory and impact.
                             </p>
-<a className="inline-flex items-center gap-2 text-primary font-bold border-b-2 border-primary pb-1 group hover:text-on-primary-container hover:border-on-primary-container transition-all" href="#">
-                                Discover Our Vision
-                                <span className="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
-</a>
+
 </div>
 </div>
 </div>

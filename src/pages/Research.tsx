@@ -99,11 +99,7 @@ export default function Research() {
 <div className="absolute inset-0 bg-slate-200 rounded-xl overflow-hidden">
 <img className="w-full h-full object-cover" data-alt="Satellite visualization of global data networks with glowing blue and white nodes representing connectivity and research impact across continents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnR9Mc50GGzIRPzKQnE5-Ey0oMTKQ8URP5kBM62YKpA5RwRa1U4SfoYK0its0LQSNkzVZliDg3wLQPT9YZa_HPU5Zhk-zH4bxC0s1l4DYNcepmLWDo-DNfoN8OjtGlhqr7A71rr-Y7yljjJqRbUQHQ9G2HOXYWLUqgBIUxY7UivQ2SeHx6WyZJTUHhYa4ZhC4Mmp2FBaG3aTz0R-Uyca8OSxwyeMkyzrjjgVQJjbhnBlpJqL9vcrtcVSmByDyyAnzmN38KF616Ug4"/>
 </div>
-<div className="absolute top-12 -right-8 bg-white p-6 rounded-lg shadow-xl max-w-xs">
-<span className="material-symbols-outlined text-primary mb-3">public</span>
-<p className="text-sm font-body text-on-surface-variant italic">"BMS University's global footprint has expanded to 42 countries, leading over 200 cross-continental research projects."</p>
-<p className="text-xs font-bold text-primary mt-3">� Global Research Council</p>
-</div>
+
 </div>
 <div className="order-1 lg:order-2">
 <span className="label-md uppercase tracking-[0.2em] text-on-surface-variant font-bold text-xs mb-6 block">Sovereign Impact</span>
