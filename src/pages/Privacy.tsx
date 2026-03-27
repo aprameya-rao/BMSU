@@ -1,8 +1,8 @@
-﻿import { useEffect } from "react";
+import { useEffect } from "react";
 
 export default function Privacy() {
   useEffect(() => {
-    document.title = "Privacy Policy | B.M. Sreenivasiah UNIVERSITY (B.M. Sreenivasiah UNIVERSITY)";
+    document.title = "Privacy Policy | BMS University (BMS University)";
     document.body.className = "bg-surface text-on-surface";
     document.documentElement.className = "light";
   }, []);
@@ -58,7 +58,7 @@ export default function Privacy() {
 </div>
 <div className="space-y-8">
 <p className="text-xl font-body text-on-surface-variant leading-relaxed">
-                            B.M. Sreenivasiah UNIVERSITY utilizes your data solely to support the university's mission of educational leadership and community service.
+                            BMS University utilizes your data solely to support the university's mission of educational leadership and community service.
                         </p>
 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 <div className="bg-primary p-8 rounded-xl text-on-primary">
@@ -131,10 +131,6 @@ export default function Privacy() {
 </li>
 </ul>
 </div>
-<div className="relative h-64 rounded-xl overflow-hidden shadow-2xl">
-<img alt="Data Security Visual" className="w-full h-full object-cover" data-alt="abstract close-up of a high-tech computer server with blue and cyan circuit lights in a dark room representing cybersecurity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcf3XKWlREgfwIOIStdjc2UakKdSCw9Xlv4zqZsGuONO6UjU_MtgI-f7sTHufR4LjK94dpF6wBCMQDI2BiB_lvjjEKgN0fELumjFA1G7v7lxtN9xS-x6zaLVpG_yyr5-W_6ImHXwmwIqwGPxmoIh9FrOAPRDJgW9MrqiPxNDidY0AvhLug1rNl10KEo1kEjpDCjgSZPF803-40cOFVhsudu7Y7MB9m0FHekQYakkGrfUHhurGBa-w67MsXp3OOWKv4hD2enq1XRAk"/>
-<div className="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
-</div>
 </div>
 </div>
 {/*  Section 5: Rights  */}
@@ -145,33 +141,15 @@ export default function Privacy() {
 </div>
 <div className="p-10 rounded-xl bg-surface-container-lowest editorial-shadow">
 <p className="text-on-surface-variant leading-relaxed mb-8">
-                            As a member of the B.M. Sreenivasiah UNIVERSITY community, you retain the right to access, rectify, or request the deletion of your personal data. To exercise these rights, please contact our Data Protection Office.
+                            As a member of the BMS University community, you retain the right to access, rectify, or request the deletion of your personal data. To exercise these rights, please contact our Data Protection Office.
                         </p>
-<a className="inline-flex items-center gap-2 text-primary font-bold border-b-2 border-primary pb-1 hover:gap-4 transition-all" href="mailto:privacy@B.M. Sreenivasiah UNIVERSITY.edu">
-                            Contact Data Protection Office <span className="material-symbols-outlined">arrow_forward</span>
-</a>
+<a className="inline-flex items-center gap-2 text-primary font-bold border-b-2 border-primary pb-1 hover:gap-4 transition-all" href="mailto:privacy@bmsuniversity.edu">
+                     </a>
 </div>
 </div>
 </div>
 </section>
-{/*  Signature Editorial Card  */}
-<section className="max-w-screen-xl mx-auto px-8 mt-32">
-<div className="relative bg-primary-container rounded-xl overflow-hidden p-12 md:p-24 text-center">
-<div className="relative z-10 max-w-2xl mx-auto">
-<h2 className="text-4xl md:text-5xl font-headline text-on-primary-container mb-6">Trust Through Transparency</h2>
-<p className="text-on-primary-container/80 text-lg mb-10">
-                        Our commitment to your privacy is as foundational as our commitment to your education. 
-                    </p>
-<div className="flex flex-col sm:flex-row gap-4 justify-center">
-<button className="bg-surface-bright text-primary px-8 py-3 rounded-xl font-bold">Download Full Policy (PDF)</button>
-<button className="bg-primary/30 border border-on-primary-container/30 text-on-primary-container px-8 py-3 rounded-xl font-bold backdrop-blur-sm">View Compliance Reports</button>
-</div>
-</div>
-{/*  Decorative element  */}
-<div className="absolute top-0 right-0 w-64 h-64 bg-primary rounded-full -mr-32 -mt-32 opacity-20"></div>
-<div className="absolute bottom-0 left-0 w-96 h-96 bg-primary rounded-full -ml-48 -mb-48 opacity-10"></div>
-</div>
-</section>
+
 </main>
 {/*  Footer  */}
 
@@ -193,6 +171,7 @@ export default function Privacy() {
     </>
   );
 }
+
 
 
 

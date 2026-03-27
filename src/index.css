@@ -46,9 +46,12 @@ i {
   line-height: 1;
 }
 
-.campuses-page img,
-.campuses-page .rounded-full {
-  border-radius: 9999px !important;
+.campuses-page img {
+  transition: transform 0.3s ease;
+}
+
+.campuses-page img:hover {
+  transform: scale(1.03);
 }
 
 body {

@@ -1,8 +1,8 @@
-﻿import { useEffect } from "react";
+import { useEffect } from "react";
 
 export default function Contact() {
   useEffect(() => {
-    document.title = "Contact Us | B.M. Sreenivasiah UNIVERSITY";
+    document.title = "Contact Us | BMS University";
     document.body.className = "bg-surface font-body text-on-surface";
     document.documentElement.className = "light";
   }, []);
@@ -61,8 +61,8 @@ export default function Contact() {
 <h3 className="font-bold text-lg mb-1">Main Campus</h3>
 <p className="text-on-surface-variant leading-relaxed">
                                     Knowledge Square, Sector 12<br/>
-                                    University Heights, New Delhi 110021<br/>
-                                    India
+                                    University Heights, Bangalore 560004<br/>
+                                    
                                 </p>
 </div>
 </div>
@@ -82,19 +82,9 @@ export default function Contact() {
 </div>
 <div>
 <h3 className="font-bold text-lg mb-1">Electronic Correspondence</h3>
-<p className="text-on-surface-variant">admissions@B.M. Sreenivasiah UNIVERSITY.edu.in</p>
-<p className="text-on-surface-variant">registry@B.M. Sreenivasiah UNIVERSITY.edu.in</p>
+<p className="text-on-surface-variant">admissions@bmsuniversity.edu.in</p>
+<p className="text-on-surface-variant">registry@bmsuniversity.edu.in</p>
 </div>
-</div>
-</div>
-</div>
-{/*  Bento Map Section  */}
-<div className="rounded-xl overflow-hidden h-[300px] relative group cursor-pointer shadow-lg shadow-on-surface/5">
-<img alt="Location Map" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Clean, minimal digital map illustration showing university campus location in a modern urban layout with soft navy and grey tones" data-location="New Delhi" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6eYfpdCo5imr4TxVFQE9S7ZGHH6leG_SUntivqAMsD_s4Y4p3bi4iksvpVHn8UHypvEgVahrQo2KtoaTWNeeld4IK1OF73sKS-9htrtEwQY3DkTtoO_jWFmWCXkYnE60xgk7J_A9bd_S4MShQKgXX0ZToVMje2un7D3SFXrwXVtMYFtskn7gLOilrt_bEUIrn1ZpoFw4UkzYanil_oqV7nmbIj_q38aGsL5JT7F2U8r-NBkfSGq9CErqrk7D3von0S_iVlzZIFQ8"/>
-<div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent flex items-end p-6">
-<div className="text-white">
-<p className="font-label uppercase tracking-widest text-xs mb-1">Navigation</p>
-<h4 className="font-bold text-lg">View Campus Map</h4>
 </div>
 </div>
 </div>
@@ -128,7 +118,7 @@ export default function Contact() {
 </div>
 <div className="bg-surface-container-lowest p-8 rounded-xl hover:bg-primary hover:text-on-primary transition-all duration-300 group">
 <h3 className="font-headline text-xl mb-4">Alumni Relations</h3>
-<p className="text-sm opacity-80 mb-6">Stay connected with the B.M. Sreenivasiah UNIVERSITY global network and upcoming reunions.</p>
+<p className="text-sm opacity-80 mb-6">Stay connected with the BMS University global network and upcoming reunions.</p>
 <a className="inline-flex items-center text-primary group-hover:text-primary-fixed-dim font-bold text-sm" href="#">
                         Connect Now <span className="material-symbols-outlined ml-2 scale-75" data-icon="arrow_forward">arrow_forward</span>
 </a>
@@ -155,6 +145,7 @@ export default function Contact() {
     </>
   );
 }
+
 
 
 

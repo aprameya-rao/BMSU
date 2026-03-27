@@ -1,8 +1,8 @@
-﻿import { useEffect } from "react";
+import { useEffect } from "react";
 
 export default function Research() {
   useEffect(() => {
-    document.title = "Research | B.M. Sreenivasiah UNIVERSITY";
+    document.title = "Research | BMS University";
     document.body.className = "bg-surface selection:bg-primary-fixed selection:text-on-primary-fixed";
     document.documentElement.className = "";
   }, []);
@@ -20,7 +20,7 @@ export default function Research() {
                         The Future of <br/><span className="italic text-on-primary-container">Academic Inquiry</span>
 </h1>
 <p className="font-body text-xl text-on-surface-variant max-w-xl leading-relaxed mb-10">
-                        At B.M. Sreenivasiah UNIVERSITY, research isn't just about discovery—it's about curation. We bring together world-class minds to solve the most pressing challenges of the next century.
+                        At BMS University, research isn't just about discovery�it's about curation. We bring together world-class minds to solve the most pressing challenges of the next century.
                     </p>
 <div className="flex flex-wrap gap-4">
 <button className="bg-primary text-on-primary px-8 py-4 rounded-lg font-bold text-base transition-all hover:bg-primary-container">Explore Journals</button>
@@ -101,8 +101,8 @@ export default function Research() {
 </div>
 <div className="absolute top-12 -right-8 bg-white p-6 rounded-lg shadow-xl max-w-xs">
 <span className="material-symbols-outlined text-primary mb-3">public</span>
-<p className="text-sm font-body text-on-surface-variant italic">"B.M. Sreenivasiah UNIVERSITY's global footprint has expanded to 42 countries, leading over 200 cross-continental research projects."</p>
-<p className="text-xs font-bold text-primary mt-3">— Global Research Council</p>
+<p className="text-sm font-body text-on-surface-variant italic">"BMS University's global footprint has expanded to 42 countries, leading over 200 cross-continental research projects."</p>
+<p className="text-xs font-bold text-primary mt-3">� Global Research Council</p>
 </div>
 </div>
 <div className="order-1 lg:order-2">
@@ -120,7 +120,7 @@ export default function Research() {
 <div className="shrink-0 text-3xl font-serif text-primary-container">02</div>
 <div>
 <h4 className="font-bold text-xl mb-2 text-primary">Commercial Ventures</h4>
-<p className="text-on-surface-variant leading-relaxed">B.M. Sreenivasiah UNIVERSITY incubated startups have raised over $1.2B in venture funding, bridging the gap from lab to market.</p>
+<p className="text-on-surface-variant leading-relaxed">BMS University incubated startups have raised over $1.2B in venture funding, bridging the gap from lab to market.</p>
 </div>
 </div>
 <div className="flex gap-6">
@@ -134,20 +134,7 @@ export default function Research() {
 </div>
 </div>
 </section>
-{/*  Newsletter / CTA  */}
-<section className="mb-32 px-8 md:px-20">
-<div className="max-w-screen-xl mx-auto bg-primary-container rounded-2xl p-12 md:p-24 text-center relative overflow-hidden">
-<div className="absolute top-0 right-0 w-64 h-64 bg-primary rounded-full blur-[100px] -mr-32 -mt-32 opacity-50"></div>
-<div className="relative z-10">
-<h2 className="font-serif text-3xl md:text-5xl text-on-primary mb-6">Stay at the forefront <br/>of discovery.</h2>
-<p className="text-on-primary-container mb-10 text-lg max-w-xl mx-auto">Subscribe to the B.M. Sreenivasiah UNIVERSITY Monthly Digest for deep-dives into our latest breakthroughs and academic papers.</p>
-<div className="flex flex-col md:flex-row gap-4 max-w-md mx-auto">
-<input className="flex-grow bg-primary text-on-primary border-none rounded-lg px-6 py-4 placeholder:text-on-primary-container focus:ring-2 focus:ring-on-primary-container" placeholder="Academic Email Address" type="email"/>
-<button className="bg-primary-fixed text-on-primary-fixed px-8 py-4 rounded-lg font-bold hover:bg-on-primary hover:text-primary transition-all">Subscribe</button>
-</div>
-</div>
-</div>
-</section>
+
 </main>
 {/*  Footer  */}
 <style>{`body { font-family: 'Manrope', sans-serif; background-color: #f7f9fb; color: #191c1e; }
@@ -156,6 +143,7 @@ export default function Research() {
     </>
   );
 }
+
 
 
 

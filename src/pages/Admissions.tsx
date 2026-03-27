@@ -1,8 +1,8 @@
-﻿import { useEffect } from "react";
+import { useEffect } from "react";
 
 export default function Admissions() {
   useEffect(() => {
-    document.title = "Admissions | B.M. Sreenivasiah UNIVERSITY";
+    document.title = "Admissions | BMS University";
     document.body.className = "bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-primary";
     document.documentElement.className = "scroll-smooth";
   }, []);
@@ -19,7 +19,7 @@ export default function Admissions() {
                         Your Journey to <br/>Global Excellence <br/>Starts Here.
                     </h1>
 <p className="text-xl text-on-surface-variant max-w-2xl leading-relaxed">
-                        Join a community of innovators, researchers, and leaders. B.M. Sreenivasiah UNIVERSITY offers a curated educational experience designed to empower your professional trajectory.
+                        Join a community of innovators, researchers, and leaders. BMS University offers a curated educational experience designed to empower your professional trajectory.
                     </p>
 <div className="flex flex-wrap gap-4 pt-4">
 
@@ -154,6 +154,7 @@ export default function Admissions() {
     </>
   );
 }
+
 
 
 

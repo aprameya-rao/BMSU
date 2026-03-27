@@ -11,7 +11,7 @@ export default function Campuses() {
 
       {/*  Hero Section  */}
       {/*  Main Content Section: Grid Layout  */}
-      <section className="campuses-page px-8 pb-32 max-w-screen-2xl mx-auto">
+      <section className="campuses-page px-8 pt-32 pb-32 max-w-screen-2xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-20">
           {/*  Item 1  */}
           <div className="flex flex-col items-center text-center">

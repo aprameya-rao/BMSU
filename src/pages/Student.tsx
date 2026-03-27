@@ -1,8 +1,8 @@
-﻿import { useEffect } from "react";
+import { useEffect } from "react";
 
 export default function Student() {
   useEffect(() => {
-    document.title = "Student Hub | B.M. Sreenivasiah UNIVERSITY";
+    document.title = "Student Hub | BMS University";
     document.body.className = "bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container";
     document.documentElement.className = "light";
   }, []);
@@ -15,20 +15,17 @@ export default function Student() {
 {/*  Hero Section  */}
 <section className="relative h-[870px] flex items-center overflow-hidden">
 <div className="absolute inset-0 z-0">
-<img alt="Cinematic university campus scene" className="w-full h-full object-cover" data-alt="cinematic wide shot of university students walking across a grand sun-drenched historic campus courtyard with lush greenery and modern glass architecture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3fUJYqmIpL5VS5oL_dPrqP6uu_Udc76qREGCj9XspdSOrP7P8TZJqfdEL8RGXOipoXYSY1f-GTyFjQFLiNEnRrHL1wuTYGUQyHP8fwkBgysZvd6CoHKj9_h7QOdZNLw5IPYx2-u5G8QbphlVu9qKQwnOGr3-oBlpIYZJHlX6e-tRBK4xr1voS9hhzJVJdWgHKueyYY9ZUCMYih3QSKQBSdFg5lH9XBOsUC8ajDujnqlG7dbcnrL26pOLpUxAtm6uD9UXb3jqAItE"/>
+<img alt="Cinematic university campus scene" className="w-full h-full object-cover" data-alt="cinematic wide shot of university students walking across a grand sun-drenched historic campus courtyard with lush greenery and modern glass architecture" src="https://ayerssaintgross.com/wp-content/uploads/2022/01/1_University-of-Delaware-Laird-Campus-Housing-Exterior-View.jpg"/>
 <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/40 to-transparent"></div>
 </div>
 <div className="relative z-10 max-w-7xl mx-auto px-8 w-full">
 <div className="max-w-2xl">
 <span className="inline-block label-md text-on-primary-container bg-primary-container px-3 py-1 rounded-sm mb-6 uppercase tracking-[0.2em] text-xs font-bold">The Student Hub</span>
 <h1 className="text-6xl md:text-8xl font-serif text-white mb-6 leading-tight tracking-tight">The Student Hub</h1>
-<p className="text-xl md:text-2xl font-body text-on-primary-container font-light leading-relaxed mb-10">
-                        Your Life Beyond the Lecture. Explore the pulse of B.M. Sreenivasiah UNIVERSITY where community, creativity, and ambition converge.
+<p className="text-xl md:text-2xl font-body text-white font-light leading-relaxed mb-10">
+                        Your Life Beyond the Lecture. Explore the pulse of BMS University where community, creativity, and ambition converge.
                     </p>
-<div className="flex gap-4">
-<button className="bg-on-primary text-primary px-8 py-4 rounded-xl font-bold hover:bg-primary-fixed transition-all shadow-lg">Explore Campus Life</button>
-<button className="bg-transparent border-2 border-white/30 text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 backdrop-blur-sm transition-all">Join a Club</button>
-</div>
+
 </div>
 </div>
 </section>
@@ -105,24 +102,24 @@ export default function Student() {
 </div>
 <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-6 h-auto md:h-[600px]">
 <div className="md:col-span-2 md:row-span-2 relative group rounded-xl overflow-hidden shadow-lg">
-<img alt="Cultural Festival" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="vibrant outdoor university cultural festival at night with colorful lights, diverse students dancing, and food stalls in background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGDMyZIK14VIMf9mQxXG8gtJtZRAvHbxqpLQk5KGxAuN87rI4QUXiSdC-D19IhOVXPe91fuZseBp14_h75SMBNxCZLLuKfUarX4AvQbW8m6fjWKUB14i8MvQHdVbS4dgR6kEgYx43-ZJgmmPEC5cQjnclLDgZ4CMpe7T_yShDXPunY36V4_5Doepu0oZ45rl5zCxRPUY20GCticqk6LM3Z_rhly8vhTrTIGbQHe_mN8wM99H4eU3_X9ZaJjKHT9hSRGq2Xg3GarjQ"/>
+<img alt="Cultural Festival" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="vibrant outdoor university cultural festival at night with colorful lights, diverse students dancing, and food stalls in background" src="https://english.news.cn/20250128/775455898ed34d00b9a124abbd5f12fd/20250128775455898ed34d00b9a124abbd5f12fd_XxjidwE007019_20250128_CBMFN0A001.JPG"/>
 <div className="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-transparent opacity-80"></div>
 <div className="absolute bottom-0 p-8">
 <span className="bg-on-tertiary-container text-white text-[10px] font-bold px-2 py-1 rounded mb-4 inline-block uppercase tracking-wider">Major Event</span>
 <h3 className="text-3xl font-serif text-white mb-2">Spring Cultural Festival</h3>
-<p className="text-white/80 font-body">April 12-15 • Main Campus Lawn</p>
+<p className="text-white/80 font-body">April 12-15 � Main Campus Lawn</p>
 </div>
 </div>
 <div className="md:col-span-2 relative group rounded-xl overflow-hidden shadow-lg">
-<img alt="Hackathon" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="focused university students working on laptops in a high-tech modern laboratory setting with neon accent lighting for a hackathon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSk9bA_1PF1Wl3jnpbE8pBxa8o9XzKmAKlI_TLLRxCjvUGsMl9IcCnAEo4MqiImLeqt9p_MRmL7qtovlJR5ZMA0nrg6rz1lZ5Of85oB8L4ZD6xev5ZGN2uHr3Qo5ZZMvl6HB6WL_2zmV4F1PbBXLLG9bZlHFk-F5tbeCk68SH36YVY9kl1fLUdgrlGmwW7jBBKaNKq6EHnge0yrwekyB4icqGOTP00XcyTIV5Tu4RPYZaFhawXR4pv48HMV-vSxfdGdUJh46Df9rA"/>
+<img alt="Hackathon" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="focused university students working on laptops in a high-tech modern laboratory setting with neon accent lighting for a hackathon" src="https://cdn.prod.website-files.com/5b3dd54182ecae4d1602962f/609e33e18c5000af6211f094_HR%20Hackathon%20-%20Section%202.jpg"/>
 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
 <div className="absolute bottom-0 p-6">
 <h3 className="text-xl font-serif text-white mb-1">Innovation Hackathon</h3>
-<p className="text-white/80 text-sm font-body">March 28 • STEM Building</p>
+<p className="text-white/80 text-sm font-body">March 28 � STEM Building</p>
 </div>
 </div>
 <div className="md:col-span-1 relative group rounded-xl overflow-hidden shadow-lg">
-<img alt="Guest Speaker" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="professional speaker on a stage with a large screen in background addressing an audience of university students in a large auditorium" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJyYrZiXOS2UJk-kBJ6EnLVqO_TtCyVR4b6-aGjEG5eG31mfd_Gm2NcEQQ9wlWwi9gbmozzWyADHfO87LfVKqqSGqvWyD4ocXTBZB0zxwMX9zXu7Qn44fSa_nil7wdaxAiz-kqdAnOLV_XzQK7QHAoP5R5FL0_S3yzoZt7YQ5_AHs9XyuIpcVI0ta3W_xaporLiRtH2KPLU9J2f9724S4jXbgaHLNGdT0lqsFMTBTU9eqRxcyMqWBmCTx4__woDDXFE7ctglcXtfo"/>
+<img alt="Guest Speaker" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="professional speaker on a stage with a large screen in background addressing an audience of university students in a large auditorium" src="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_174728/aa74f9ff-038f-4b4c-a6a5-61bde29cc32c/DavidLarbi_2025N-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640"/>
 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
 <div className="absolute bottom-0 p-6">
 <h3 className="text-lg font-serif text-white">Guest Speaker Series</h3>
@@ -155,7 +152,7 @@ export default function Student() {
 </div>
 <div>
 <span className="label-md text-primary/60 uppercase tracking-[0.1em] text-xs font-bold block mb-2">Holistic Growth</span>
-<h2 className="text-5xl font-serif text-primary mb-8 leading-tight">Wellness &amp; Life at B.M. Sreenivasiah UNIVERSITY</h2>
+<h2 className="text-5xl font-serif text-primary mb-8 leading-tight">Wellness &amp; Life at BMS University</h2>
 <p className="text-lg text-on-surface-variant leading-relaxed mb-10">
                         We believe that academic excellence is fueled by a balanced lifestyle. From state-of-the-art recreation centers to mindful quiet spaces, your well-being is our priority.
                     </p>
@@ -198,7 +195,7 @@ export default function Student() {
 <div className="lg:col-span-7">
 <span className="material-symbols-outlined text-7xl text-on-primary-container mb-8">format_quote</span>
 <h2 className="text-4xl md:text-5xl font-serif leading-tight mb-8">
-                            "Coming to B.M. Sreenivasiah UNIVERSITY, I expected a great education. What I found was a family of innovators who pushed me to lead beyond the classroom."
+                            "Coming to BMS University, I expected a great education. What I found was a family of innovators who pushed me to lead beyond the classroom."
                         </h2>
 <div className="flex items-center gap-4">
 <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-on-primary-container">
@@ -237,6 +234,7 @@ export default function Student() {
     </>
   );
 }
+
 
 
 

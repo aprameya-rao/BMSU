@@ -1,6 +1,8 @@
 ﻿import { Navigate, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Academics from "./pages/Academics";
 import Admissions from "./pages/Admissions";
@@ -17,9 +19,11 @@ import Terms from "./pages/Terms";
 export default function App() {
   return (
     <>
+      <ScrollToTop />
       <Header />
       <Routes>
-        <Route path="/" element={<Navigate to="/about" replace />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/academics" element={<Academics />} />
         <Route path="/admissions" element={<Admissions />} />
@@ -33,11 +37,9 @@ export default function App() {
         <Route path="/student" element={<Student />} />
         <Route path="/students" element={<Student />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
     </>
   );
 }
-
-
-

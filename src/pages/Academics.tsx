@@ -1,8 +1,8 @@
-﻿import { useEffect } from "react";
+import { useEffect } from "react";
 
 export default function Academics() {
   useEffect(() => {
-    document.title = "Academics | B.M. Sreenivasiah UNIVERSITY";
+    document.title = "Academics | BMS University";
     document.body.className = "bg-background text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed";
     document.documentElement.className = "scroll-smooth";
   }, []);
@@ -19,7 +19,7 @@ export default function Academics() {
                         Cultivating the Next Generation of <span className="italic font-normal">Global Leaders</span>
 </h1>
 <p className="text-lg text-on-surface-variant max-w-xl font-medium leading-relaxed">
-                        At B.M. Sreenivasiah UNIVERSITY, we bridge the gap between traditional wisdom and modern innovation through a curated academic curriculum designed for impact.
+                        At BMS University, we bridge the gap between traditional wisdom and modern innovation through a curated academic curriculum designed for impact.
                     </p>
 
 </div>
@@ -29,7 +29,7 @@ export default function Academics() {
 </div>
 <div className="absolute -bottom-8 -left-8 bg-surface-container-lowest p-6 rounded-xl shadow-xl max-w-xs border-l-4 border-primary">
 <p className="font-headline italic text-primary text-lg">"The curriculum here doesn't just teach you what to think, but how to architect solutions for the future."</p>
-<p className="mt-4 font-label text-xs uppercase font-bold tracking-widest text-on-surface-variant">— Dean</p>
+<p className="mt-4 font-label text-xs uppercase font-bold tracking-widest text-on-surface-variant">� Dean</p>
 </div>
 </div>
 </div>
@@ -143,7 +143,7 @@ export default function Academics() {
 <div className="relative z-10">
 <h2 className="font-headline text-4xl md:text-6xl font-bold text-white mb-8">Ready to define your future?</h2>
 <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-medium">
-                        Join a community of scholars, innovators, and leaders at B.M. Sreenivasiah UNIVERSITY. Fall admissions are now open across all primary faculties.
+                        Join a community of scholars, innovators, and leaders at BMS University. Fall admissions are now open across all primary faculties.
                     </p>
 <div className="flex flex-col md:flex-row items-center justify-center gap-6">
 <button className="bg-white text-primary px-10 py-5 rounded-lg font-bold text-lg hover:bg-slate-50 transition-colors active:scale-95 shadow-xl shadow-black/20">
@@ -171,6 +171,7 @@ export default function Academics() {
     </>
   );
 }
+
 
 
 

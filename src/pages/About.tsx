@@ -1,4 +1,4 @@
-﻿import { useEffect } from "react";
+import { useEffect } from "react";
 
 export default function About() {
   useEffect(() => {
@@ -14,7 +14,7 @@ export default function About() {
 {/*  Hero Section  */}
 <section className="relative h-[819px] flex items-center overflow-hidden">
 <div className="absolute inset-0 z-0">
-<img alt="B.M. Sreenivasiah UNIVERSITY Campus" className="w-full h-full object-cover grayscale-[20%] contrast-[1.1]" data-alt="stately university gothic architecture buildings surrounded by ancient oak trees under a clear twilight sky with soft orange glow" src="https://images.shiksha.com/mediadata/images/1535019907phpaCZsTx.jpeg"/>
+<img alt="BMS University Campus" className="w-full h-full object-cover grayscale-[20%] contrast-[1.1]" data-alt="stately university gothic architecture buildings surrounded by ancient oak trees under a clear twilight sky with soft orange glow" src="https://images.shiksha.com/mediadata/images/1535019907phpaCZsTx.jpeg"/>
 <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/40 to-transparent"></div>
 </div>
 <div className="relative z-10 max-w-screen-2xl mx-auto px-8 w-full">
@@ -24,7 +24,7 @@ export default function About() {
                         Excellence in <br/><span className="italic font-normal">Every Endeavor.</span>
 </h1>
 <p className="text-blue-100 text-xl leading-relaxed font-light max-w-xl">
-                        B.M. Sreenivasiah UNIVERSITY stands as a beacon of intellectual rigor and cultural heritage, shaping the leaders of tomorrow through holistic education.
+                        BMS University stands as a beacon of intellectual rigor and cultural heritage, shaping the leaders of tomorrow through holistic education.
                     </p>
 </div>
 </div>
@@ -46,7 +46,7 @@ export default function About() {
                         </h2>
 <div className="space-y-6 text-on-surface/80 text-lg leading-relaxed max-w-2xl">
 <p>
-                                At B.M. Sreenivasiah UNIVERSITY, we believe education transcends the classroom. Our curriculum is designed to foster critical thinking, ethical leadership, and a profound sense of social responsibility. 
+                                At BMS University, we believe education transcends the classroom. Our curriculum is designed to foster critical thinking, ethical leadership, and a profound sense of social responsibility. 
                             </p>
 <p>
                                 We empower our students to not only understand the world as it is but to envision and create the world as it should be. Through interdisciplinary research and community engagement, we bridge the gap between theory and impact.
@@ -132,6 +132,7 @@ export default function About() {
     </>
   );
 }
+
 
 
 
