@@ -43,7 +43,7 @@ export default function Header() {
         {/* Logo - Kept at z-[60] to sit above the overlay */}
         <NavLink to="/home" className="flex items-center relative z-[60]">
           <img
-            src="/bms1.png"
+            src="/bms1.webp"
             alt="BMS University"
             className="h-10 md:h-12 w-auto"
           />

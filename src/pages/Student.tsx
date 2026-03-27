@@ -144,7 +144,7 @@ export default function Student() {
 <img alt="Gym" className="w-full aspect-square object-cover rounded-full shadow-lg" data-alt="modern campus fitness center with state of the art equipment and students exercising in a bright airy space" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJcaxy7Md93jn5e97fUa2K-om84PlldzotBLxamzK7BhaoZ-w6XsuPHd3vkQAqMpM_Ewz8TgDC8rLgOYrW06_AnuWZnn1EaC4qmgCYWKSd4agmlCepdO55O6ccZ1fdKZqkz_-sIuGKbW2ENEzUcMJC68Imyr96Evd74kp-KFgnUp1DDOb7CAac99yH2TOUW34qqipm-bKB2U_XU1ma7uecJrCiXMw0ViyLF0SxPQ2rCHqqJBkiTcn2-ksy7bxKCsY-Dki-TdzCIvk"/>
 </div>
 <div>
-<img alt="Dining" className="w-full aspect-square object-cover rounded-full mb-4 shadow-lg" data-alt="university dining hall with communal tables and students eating healthy gourmet meals together in a modern open space" src="https://www.rti-inc.com/wp-content/uploads/2024/07/How-to-run-a-cafeteria.png"/>
+<img alt="Dining" className="w-full aspect-square object-cover rounded-full mb-4 shadow-lg" data-alt="university dining hall with communal tables and students eating healthy gourmet meals together in a modern open space" src="https://www.rti-inc.com/wp-content/uploads/2024/07/How-to-run-a-cafeteria.webp"/>
 <img alt="Global Commons" className="w-full aspect-[3/4] object-cover rounded-full shadow-xl" data-alt="students from different backgrounds laughing and chatting in a stylish campus lounge with global flag decorations" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa7PHnUvafGP28-vH66CgVWp4B9PUd62MCAg&s"/>
 </div>
 </div>

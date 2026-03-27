@@ -38,9 +38,7 @@ export default function Home() {
             </div>
           </div>
           <div className="absolute bottom-12 left-1/2 -translate-x-1/2 text-white/50 animate-bounce">
-            <span className="material-symbols-outlined text-4xl" data-icon="keyboard_double_arrow_down">
-              keyboard_double_arrow_down
-            </span>
+            
           </div>
         </section>
 
