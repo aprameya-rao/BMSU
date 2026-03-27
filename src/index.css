@@ -1,0 +1,56 @@
+﻿/* Minimal global reset; Tailwind CDN provides the rest. */
+:root {
+  font-family: "Noto Serif", serif;
+}
+
+*,
+*::before,
+*::after {
+  border-radius: 0 !important;
+  font-family: "Noto Serif", serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
+  line-height: 1.5 !important;
+}
+
+.font-headline,
+.font-body,
+.font-label,
+.font-serif,
+.font-sans {
+  font-family: "Noto Serif", serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
+  line-height: 1.5 !important;
+}
+
+strong,
+b,
+em,
+i {
+  font-style: normal !important;
+  font-weight: 400 !important;
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
+  line-height: 1.5 !important;
+}
+
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined" !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  line-height: 1;
+}
+
+.campuses-page img,
+.campuses-page .rounded-full {
+  border-radius: 9999px !important;
+}
+
+body {
+  margin: 0;
+}
